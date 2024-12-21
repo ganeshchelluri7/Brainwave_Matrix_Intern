@@ -117,30 +117,29 @@ If everything is set up correctly, both frontend and backend should be working s
 
 ## Repository Structure
 
-Brainwave_Matrix_Intern/
+Brainwave_Matrix_Intern/                   # Root project directory
 │
-├── backend/                         # Django backend files
-│   ├── db.sqlite3                   # SQLite database file (if using SQLite)
-│   ├── devconnector/                # Django project-specific configurations
-│   ├── manage.py                    # Django entry point for managing the project
-│   ├── mysite/                      # Additional Django configurations
-│   ├── nohup.out                    # Output from the nohup command (server logs)
-│   ├── requirements.txt             # List of backend dependencies
-│   
+├── backend/                              # Django backend files
+│   ├── db.sqlite3                        # SQLite database file (if using SQLite)
+│   ├── devconnector/                     # Django project-specific configurations
+│   ├── manage.py                         # Django entry point for managing the project
+│   ├── mysite/                           # Additional Django configurations
+│   ├── nohup.out                         # Output from the nohup command (server logs)
+│   ├── requirements.txt                  # List of backend dependencies
 │
-├── frontend/                        # React frontend files
-│   ├── build/                       # React production build files (after `npm run build`)
-│   ├── node_modules/                # Node modules (dependencies installed via npm)
-│   ├── package-lock.json            # Lock file with specific versions of frontend dependencies
-│   ├── package.json                 # Manifest for managing React app dependencies
-│   ├── public/                      # Public files for React (including index.html, static assets)
-│   └── src/                         # Source files for React app (JSX components, hooks, etc.)
+├── frontend/                             # React frontend files
+│   ├── build/                            # React production build files (after `npm run build`)
+│   ├── node_modules/                     # Node modules (dependencies installed via npm)
+│   ├── package-lock.json                 # Lock file with specific versions of frontend dependencies
+│   ├── package.json                      # Manifest for managing React app dependencies
+│   ├── public/                           # Public files for React (index.html, static assets)
+│   └── src/                              # Source files for React app (JSX components, hooks, etc.)
 │
-├── nginx/                           # Nginx configuration directory
-│   ├── front.conf                   # Nginx configuration for the frontend (React app)
-│   ├── back.conf                    # Nginx configuration for the backend (Django API)
+├── nginx/                                # Nginx configuration directory
+│   ├── front.conf                        # Nginx configuration for the frontend (React app)
+│   ├── back.conf                         # Nginx configuration for the backend (Django API)
 │
-├── env/                             # Python virtual environment
-├── LICENSE                          # Project license
-├── README.md                        # Project documentation, setup, and deployment instructions
-└── .gitignore                       # Defines files/folders to ignore by Git
+├── env/                                  # Python virtual environment
+├── LICENSE                               # Project license
+├── README.md                             # Project documentation, setup, and deployment instructions
+└── .gitignore                            # Defines files/folders to ignore by Git
