@@ -16,7 +16,7 @@
 ## Cloud Infrastructure Setup
 
 1. **AWS EC2 Instance**:
-   - **Instance Type**: t2.micro (Ubuntu 24)
+   - **Instance Type**: t3.medium (Ubuntu 24)
    - **Elastic IP**: `13.203.129.130` (use this for accessing both frontend and backend)
    - **Security Groups**: 
      - SSH (Port 22)
